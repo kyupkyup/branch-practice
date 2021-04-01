@@ -1,5 +1,6 @@
 print("hello word")
 print("anot")
 
-for _ in range(10):
-    print("hello fucking python")
+for i in range(1, 10):
+    if i % 3 == 0:
+        print(f'{i}: hello fucking python')
